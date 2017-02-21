@@ -1,5 +1,5 @@
 # VisitorExpress
-##Visitor Registration Application with Angular 2
+##Visitor Registration Application with Angular 2 front end & ASP.NET Core backend
 
 ## Introduction
 Welcome to Visitor Express!
@@ -17,11 +17,13 @@ Welcome to Visitor Express!
 * [Istanbul](https://github.com/gotwarlost/istanbul) for test coverage
   * with [Remap Istanbul](https://github.com/SitePen/remap-istanbul) for remapping Javascript to TypeScript coverage
 * [SystemJS Builder](https://github.com/systemjs/builder) or [Webpack](https://webpack.github.io/) for module bundling in production
+* ASP.NET Core
 
 ## Prerequisites
 You need to have [Node.js and npm](https://nodejs.org/en/)
 - Support Node v4 - latest
 - Support npm v3 - latest
+- Visual Studio 2015 for the API project
 
 [Global Gulp CLI](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) is not required, since you can map them to npm scripts, but a nice to have for development purpose.
 
@@ -34,9 +36,14 @@ npm install
 ```
 
 ## Start
-Let's start up the server, run:
+Let's start up the front end Angular 2 app:
 ```bash
 npm start
+```
+
+Then start the back end ASP.NET Core WebAPI app:
+```bash
+dotnet run
 ```
 
 and done! The browser will popup and you can start trying Angular 2!
@@ -81,6 +88,6 @@ You can extend this project with many extensions built by the community.
 ## Reference articles
 * http://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/
 * http://blog.angular-university.io/angular2-ngmodule/com/mgechev/angular2-seed
-
+* Angular 2: HTTP, Observables, and concurrent data loading https://www.metaltoad.com/blog/angular-2-http-observables-and-concurrent-data-loading
 ## License
 MIT
