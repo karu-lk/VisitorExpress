@@ -1,0 +1,21 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.sign-in-outer button{
+    width: 25%;
+}
+
+.subtitle-before-hometile{
+    margin-bottom: 55px;
+}
+
+.home-tiles{
+    width: 40%;
+    height: 38%;
+    margin: 0 auto;
+}
+
+.home-tiles img{
+    opacity: 0.75;
+}
