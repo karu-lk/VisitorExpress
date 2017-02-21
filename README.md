@@ -89,5 +89,6 @@ You can extend this project with many extensions built by the community.
 * http://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/
 * http://blog.angular-university.io/angular2-ngmodule/com/mgechev/angular2-seed
 * Angular 2: HTTP, Observables, and concurrent data loading https://www.metaltoad.com/blog/angular-2-http-observables-and-concurrent-data-loading
+
 ## License
 MIT
