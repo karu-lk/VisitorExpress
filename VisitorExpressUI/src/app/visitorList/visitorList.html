@@ -1,0 +1,13 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-home"></i> Sign In</h3>
+    </div>
+    <div class="panel-body sign-in-outer">
+        <h4>List of visitors</h4>
+        <ul>
+            <li *ngFor="let visitor of visitors">
+                {{visitor.fullName}}
+            </li>
+        </ul>
+    </div>
+</div>
